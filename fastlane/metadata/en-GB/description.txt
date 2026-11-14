@@ -1,0 +1,7 @@
+Explore Python with Pip, a radio operator guiding you through a forest-themed field course. Work through 100 sequential missions across 16 stations, from output and variables to recursion and checksums.
+
+Each mission includes a short explanation, a Python example and a message from Pip. Practise by predicting an output, choosing a code patch and assembling a line from pieces. Check your answers, read the feedback and retry when needed.
+
+Basecamp shows your next mission or a mission saved in progress. Use the Trail map to explore stations and replay completed missions. Your Field log tracks experience points, completion-day streaks and station patches. Complete every mission at a station to earn its patch.
+
+Patchwood uses predefined answers for its challenges; it does not include a general Python editor or interpreter. The interface and course content are in English.

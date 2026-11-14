@@ -1,0 +1,7 @@
+Patchwood opens directly to Basecamp without onboarding or an account. The interface and course content are in English.
+
+To review, open the available mission, read the briefing and start its three challenges. Select or assemble an answer and check it; incorrect answers can be retried. Complete each challenge correctly to reach the completion screen. Close a mission partway through and reopen it to check checkpoint restoration. Use the bottom bar to inspect the Trail map and Field log. Completed missions can be replayed; subsequent missions unlock in sequence.
+
+Progress and completion dates are stored locally in UserDefaults. There is no populated in-app demo mode. The reviewed project declares no protected-resource permissions and implements no network, account, analytics, advertising, purchase or third-party service integrations. Successful checks use system sensory feedback.
+
+This information is based on source and configuration review; no build, simulator or device was run.

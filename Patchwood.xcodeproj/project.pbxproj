@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+		FA3528C57DF480BB8E18F289 = {
+			isa = PBXFileReference;
+			path = PatchwoodApp.swift;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = "<group>";
+		};
+		DC3D811205C71101FE372167 = {
+			isa = PBXBuildFile;
+			fileRef = FA3528C57DF480BB8E18F289;
+		};
+		C89BA6EDEB86E9BA91530CB8 = {
+			isa = PBXFileReference;
+			path = Trailbook.swift;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = "<group>";
+		};
+		5827B6CD5B0804819ED40319 = {
+			isa = PBXBuildFile;
+			fileRef = C89BA6EDEB86E9BA91530CB8;
+		};
+		6E17B9810F9867F7DB18B8E6 = {
+			isa = PBXFileReference;
+			path = Basecamp.swift;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = "<group>";
+		};
+		1237F64421F5B3BC538D9ED4 = {
+			isa = PBXBuildFile;
+			fileRef = 6E17B9810F9867F7DB18B8E6;
+		};
+		3810E216733EBEC83D3EBDC8 = {
+			isa = PBXFileReference;
+			path = MissionRoom.swift;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = "<group>";
+		};
+		558B3A50BE965D56DEB3A768 = {
+			isa = PBXBuildFile;
+			fileRef = 3810E216733EBEC83D3EBDC8;
+		};
+		795A02A63DC9C1E86758E98F = {
+			isa = PBXFileReference;
+			path = Assets.xcassets;
+			lastKnownFileType = folder.assetcatalog;
+			sourceTree = "<group>";
+		};
+		106A436AF27AC4E3A319CC19 = {
+			isa = PBXBuildFile;
+			fileRef = 795A02A63DC9C1E86758E98F;
+		};
+		CE4B879AD6F28369BEEC6FD7 = {
+			isa = PBXFileReference;
+			path = TrailUITests.swift;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = "<group>";
+		};
+		63BA5B0CBB22E3003C5E8668 = {
+			isa = PBXBuildFile;
+			fileRef = CE4B879AD6F28369BEEC6FD7;
+		};
+		E790431CDE9DDF1D2470C832 = {
+			isa = PBXBuildFile;
+			fileRef = C89BA6EDEB86E9BA91530CB8;
+		};
+		EAEDA6BE53ADA4208E2AD43C = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = -Onone;
+				SWIFT_VERSION = 5.0;
+				SDKROOT = iphoneos;
+				ENABLE_TESTABILITY = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A43A0BFF0669A44DC17328A = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				DEBUG_INFORMATION_FORMAT = dwarf-with-dsym;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_OPTIMIZATION_LEVEL = -O;
+				SWIFT_VERSION = 5.0;
+				SDKROOT = iphoneos;
+				ENABLE_TESTABILITY = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		56DD230330085790185155EC = {
+			isa = XCConfigurationList;
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+			buildConfigurations = (
+				EAEDA6BE53ADA4208E2AD43C,
+				2A43A0BFF0669A44DC17328A,
+			);
+		};
+		C1BB2FF252CBE3DA34D79343 = {
+			isa = PBXFileReference;
+			path = Patchwood.app;
+			includeInIndex = 0;
+			explicitFileType = wrapper.application;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F90D5EE770498BF5075DB72C = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				MARKETING_VERSION = 1.0;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_CFBundleDisplayName = Patchwood;
+				CODE_SIGN_STYLE = Automatic;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = app.patchwood.fieldcourse;
+				SUPPORTS_MACCATALYST = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = public.app-category.education;
+			};
+			name = Debug;
+		};
+		DFF22FF32E7173282FF55769 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				MARKETING_VERSION = 1.0;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_CFBundleDisplayName = Patchwood;
+				CODE_SIGN_STYLE = Automatic;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = app.patchwood.fieldcourse;
+				SUPPORTS_MACCATALYST = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = public.app-category.education;
+			};
+			name = Release;
+		};
+		92289D2723BEEB84C65C2D8A = {
+			isa = XCConfigurationList;
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+			buildConfigurations = (
+				F90D5EE770498BF5075DB72C,
+				DFF22FF32E7173282FF55769,
+			);
+		};
+		E509710C74B825FAAD441E54 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3D811205C71101FE372167,
+				5827B6CD5B0804819ED40319,
+				1237F64421F5B3BC538D9ED4,
+				558B3A50BE965D56DEB3A768,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900F5C0438BB51A64487F6F1 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E050208FCF4256F06C2382 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				106A436AF27AC4E3A319CC19,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32E22F53EDDF92EDB59C1153 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92289D2723BEEB84C65C2D8A;
+			productReference = C1BB2FF252CBE3DA34D79343;
+			productType = com.apple.product-type.application;
+			productName = Patchwood;
+			buildPhases = (
+				E509710C74B825FAAD441E54,
+				900F5C0438BB51A64487F6F1,
+				F2E050208FCF4256F06C2382,
+			);
+			dependencies = ();
+			name = Patchwood;
+			buildRules = ();
+		};
+		8FC71EEE975EF95722BCC453 = {
+			isa = PBXFileReference;
+			path = PatchwoodUITests.xctest;
+			includeInIndex = 0;
+			explicitFileType = wrapper.cfbundle;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F7A4A01A0D8D36F932B3E7AA = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				SUPPORTS_MACCATALYST = NO;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_BUNDLE_IDENTIFIER = app.patchwood.fieldcourse.uitests;
+				TEST_TARGET_NAME = Patchwood;
+				CURRENT_PROJECT_VERSION = 1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E24B3D94573D4BA8FCEBFFE9 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				SUPPORTS_MACCATALYST = NO;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_BUNDLE_IDENTIFIER = app.patchwood.fieldcourse.uitests;
+				TEST_TARGET_NAME = Patchwood;
+				CURRENT_PROJECT_VERSION = 1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9ED3C8558E46ED18845F92DA = {
+			isa = XCConfigurationList;
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+			buildConfigurations = (
+				F7A4A01A0D8D36F932B3E7AA,
+				E24B3D94573D4BA8FCEBFFE9,
+			);
+		};
+		85142D57ADB59B6E1A784710 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63BA5B0CBB22E3003C5E8668,
+				E790431CDE9DDF1D2470C832,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE9BE0E3D255303C5056099 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B696E91C71B96EEEAEBC5D2 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1241936D4DD3AAD68FE7BFBD = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E73C023A2E8E90349BB4D853;
+			remoteGlobalIDString = 32E22F53EDDF92EDB59C1153;
+			remoteInfo = Patchwood;
+			proxyType = 1;
+		};
+		8CE3E71EF8635D2BF27913BB = {
+			isa = PBXTargetDependency;
+			target = 32E22F53EDDF92EDB59C1153;
+			targetProxy = 1241936D4DD3AAD68FE7BFBD;
+		};
+		658284CE4F1C5C0FF4B00E59 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ED3C8558E46ED18845F92DA;
+			productReference = 8FC71EEE975EF95722BCC453;
+			productType = com.apple.product-type.bundle.ui-testing;
+			productName = PatchwoodUITests;
+			buildPhases = (
+				85142D57ADB59B6E1A784710,
+				8DE9BE0E3D255303C5056099,
+				8B696E91C71B96EEEAEBC5D2,
+			);
+			dependencies = (
+				8CE3E71EF8635D2BF27913BB,
+			);
+			name = PatchwoodUITests;
+			buildRules = ();
+		};
+		0A3E27B8CA818264D75C8D81 = {
+			isa = PBXGroup;
+			name = Products;
+			children = (
+				C1BB2FF252CBE3DA34D79343,
+				8FC71EEE975EF95722BCC453,
+			);
+			sourceTree = "<group>";
+		};
+		AD936FCBED631FA67E05C3EA = {
+			isa = PBXGroup;
+			sourceTree = "<group>";
+			children = (
+				FA3528C57DF480BB8E18F289,
+				C89BA6EDEB86E9BA91530CB8,
+				6E17B9810F9867F7DB18B8E6,
+				3810E216733EBEC83D3EBDC8,
+				795A02A63DC9C1E86758E98F,
+				CE4B879AD6F28369BEEC6FD7,
+				0A3E27B8CA818264D75C8D81,
+			);
+		};
+		E73C023A2E8E90349BB4D853 = {
+			isa = PBXProject;
+			buildConfigurationList = 56DD230330085790185155EC;
+			targets = (
+				32E22F53EDDF92EDB59C1153,
+				658284CE4F1C5C0FF4B00E59,
+			);
+			developmentRegion = en;
+			knownRegions = (
+				en,
+				Base,
+			);
+			compatibilityVersion = "Xcode 14.0";
+			productRefGroup = 0A3E27B8CA818264D75C8D81;
+			projectDirPath = "";
+			attributes = {
+				LastUpgradeCheck = 1600;
+				BuildIndependentTargetsInParallel = 1;
+				TargetAttributes = {
+					658284CE4F1C5C0FF4B00E59 = {
+						TestTargetID = 32E22F53EDDF92EDB59C1153;
+					};
+				};
+			};
+			hasScannedForEncodings = 0;
+			projectRoot = "";
+			mainGroup = AD936FCBED631FA67E05C3EA;
+		};
+	};
+	rootObject = E73C023A2E8E90349BB4D853;
+}
