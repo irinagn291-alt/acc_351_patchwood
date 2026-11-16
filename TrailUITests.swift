@@ -3,6 +3,7 @@ import XCTest
 final class TrailUITests: XCTestCase {
     func testEntireTrailAndRestoredCheckpoint() {
         let app = XCUIApplication()
+        app.launchArguments = ["-ReviewScreen"]
         app.launchEnvironment["PATCHWOOD_TEST_JOURNAL"] = "patchwood.test." + UUID().uuidString
         app.launch()
         app.buttons["tab-Trail map"].tap()
@@ -75,6 +76,7 @@ final class TrailUITests: XCTestCase {
 
     func testCourseMapAndFirstMission() {
         let app = XCUIApplication()
+        app.launchArguments = ["-ReviewScreen"]
         app.launchEnvironment["PATCHWOOD_TEST_JOURNAL"] = "patchwood.test." + UUID().uuidString
         app.launch()
         app.buttons["tab-Trail map"].tap()
